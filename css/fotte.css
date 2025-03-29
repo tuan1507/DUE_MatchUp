@@ -1,0 +1,112 @@
+/* ------------------------footer------------------------ */
+.footer {
+    background-color: black;
+    color: #fff;
+}
+
+.footer-text {
+    width: 85%;
+    margin: auto;
+    padding-top: 130px;
+    display: flex;
+
+}
+
+.footer-text-text {
+    flex-basis: 31%;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 10px;
+}
+
+.footer-text-video {
+    flex-basis: 31%;
+}
+
+.footer-contact {
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-contact-add {
+    width: 45%;
+    display: flex;
+}
+
+.footer-contact .contact {
+    margin: 0 0 7px 0;
+    font-size: 20px;
+}
+
+.footer-contact .text {
+    margin-top: 5px;
+}
+
+.contact-col {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.footer-contact-add div {
+    margin-left: 10px;
+}
+
+.red-btn {
+    font-size: 13px;
+    width: 50%;
+}
+
+.follow-us {
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    margin-top: -100px;
+}
+
+.follow-us div {
+    margin: 0 20px 0 30px;
+}
+
+.follow-us div .fa-brands {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.fa-facebook {
+    padding: 0;
+    outline: black;
+    color: #3B5998;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 0;
+}
+
+.fa-instagram {
+    color: #E4405F;
+    /* background-color: #FFF; */
+    /* border: 1px solid #833AB4; */
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
